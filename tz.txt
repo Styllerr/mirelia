@@ -1,0 +1,46 @@
+Техническое задание: 
+Подготовили дизайн нового сайта Mirelia Networks, который будет расположен на домене mirelia.co.
+
+Сайт должен содержать 12 страниц и систему добавления контента:
+Main page - главная страница сайта; (https://mirelia.co/ )
+About us - страница описание нетворка (https://mirelia.co/about )
+Advertisers - страница посвящена рекламодателям (https://mirelia.co/advertisers )
+Affiliates - страница посвящена аффилиатам (https://mirelia.co/affiliate )
+Contact us - форма; свяжитесь с нами (https://mirelia.co/contact )
+Referral Program - реферальная программа сотрудничества с партнерами (https://mirelia.co/referral )
+Affiliate Sign up - форма; заполняет аффилиаты для регистрации (https://mirelia.co/affiliate/signup )
+Privacy Policy - политика конфиденциальности ( https://mirelia.co/policy )
+Terms & Conditions - термзы (https://mirelia.co/terms )
+Tracking Policy - новая вкладка термзов; (https://mirelia.co/tracking )
+Blog - страница блога с поисковой строкой и статьями
+Blog article - статья блога
+Общее описание:
+Нужно сверстать сайт по макету: https://www.figma.com/file/WGfMo3pGIn3WKoP8Ii6dYh/Mirelia?node-id=0%3A1 
+Апдейт 1:
+Добавилась страница Tracking Policy; она идентична странице Privacy Policy, но в ней другой текст; 
+Также, ссылку на нее нужно вынести в футер на всех страницах между Terms & Conditions и Referral Program.
+Конетнт:
+Тексты для страниц доступны в макете, нужно оставить его;
+Для юридических файлов Privacy Policy, Terms & Conditions, Tracking Policy нужно использовать актуальная версию; доступна тут: https://drive.google.com/drive/folders/1-pScDKui-9E0jAf8Jzb7NKxZRRziFwP0?usp=sharing 
+Связи страниц:
+Необходимо настроить переходы между страницами внутри сайта. 
+Необходимо настроить переходы на внешние сайты:
+Кнопки Log In - https://dsp.mirelia.app/login 
+Кнопки Register - https://dsp.mirelia.app/register 
+Кнопки Start advertising - https://dsp.mirelia.app 
+Значек Facebook - https://www.facebook.com/MireliaNetworks/ 
+Значек Instagramm - https://www.instagram.com/mirelia.networks/ 
+Значек Twitter - https://twitter.com/mirelianetworks 
+Значек LinkedIn -   https://www.linkedin.com/company/mirelia-networks/ 
+Технологии:
+Предпочтительные технологии: html + css + native js для верстки фронта
+Адаптивность:
+Сайт должен обладать адаптивной под размер экрана версткой и мобильной версией; 
+Концепция Desktop first; 
+Верстку мобильной версии можно упростить (контуры на бэкграунде); 
+Доступность и скорость:
+Сайт должен быть доступным и работать для десктопа (веб) и мобильных браузеров: Google Chrome, Mozilla Firefox, Opera, Internet Explorer, Facebook Browser (нативный браузер при переходе на внешние ресурсы из Instagram, Facebook);
+Сайт должен иметь показатель 90-100 по Google Speed Test:  https://developers.google.com/speed/pagespeed/insights/ 
+Оптимизация под поиск (seo).
+Передача кода: 
+Разработчик должен передавать все необходимые для работы сайта и подключение к домену mirelia.co файлы и доступы.

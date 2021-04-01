@@ -1,0 +1,47 @@
+.ad-network {
+    position: relative;
+    background: url(/image/svg/method-draw-image.svg) no-repeat;
+    background-color: $black;
+    &__wrapper {
+        max-width: 1109px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__caption {
+        margin: 175px 0 48px;
+        width: 100%;
+        &-row {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 50px;
+            margin: 0;
+            color: $white;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+    &__spaceman {
+        position: absolute;
+        width: 100px;
+        height: 109px;
+        bottom: 40px;
+        right: 375px;
+        transform: rotate(-10deg);
+        background: url(/image/svg/spaceman.svg) no-repeat;
+        background-color: $black;
+    }
+    &__start-btn {
+        width: 280px;
+        height: 72px;
+        border: none;
+        border-radius: 60px;
+        background: $french-rose;
+        color: $white;
+        margin-bottom: 254px;
+    }
+}

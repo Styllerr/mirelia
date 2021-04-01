@@ -337,90 +337,240 @@ template {
   display: none;
 }
 
-@font-face {
-  font-family: "Open Sans";
-  src: url("font/opensans/OpenSans-Light.eot");
-  src: local("Open Sans Light"), local("OpenSans-Light"), url("font/opensans/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("font/opensans/OpenSans-Light.woff") format("woff"), url("font/opensans/OpenSans-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("font/opensans/OpenSans-Regular.eot");
-  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("font/opensans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("font/opensans/OpenSans-Regular.woff") format("woff"), url("font/opensans/OpenSans-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("font/opensans/OpenSans-SemiBold.eot");
-  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("font/opensans/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("font/opensans/OpenSans-SemiBold.woff") format("woff"), url("font/opensans/OpenSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("font/opensans/OpenSans-Bold.eot");
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("font/opensans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("font/opensans/OpenSans-Bold.woff") format("woff"), url("font/opensans/OpenSans-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("font/opensans/OpenSans-ExtraBold.eot");
-  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url("font/opensans/OpenSans-ExtraBold.eot?#iefix") format("embedded-opentype"), url("font/opensans/OpenSans-ExtraBold.woff") format("woff"), url("font/opensans/OpenSans-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-
+/* roboto-regular - latin */
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Light"), local("Roboto-Light"), url("font/roboto/Robotolight.woff2") format("woff2"), url("font/roboto/Robotolight.woff") format("woff"), url("font/roboto/Robotolight.ttf") format("truetype");
-  font-weight: 300;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), local("Roboto-Regular"), url("font/roboto/Roboto.woff2") format("woff2"), url("font/roboto/Roboto.woff") format("woff"), url("font/roboto/Roboto.ttf") format("truetype");
   font-weight: 400;
-  font-style: normal;
+  src: url("../fonts/roboto-v20-latin-regular.eot");
+  src: local(""), url("../fonts/roboto-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin-regular.woff") format("woff"), url("../fonts/roboto-v20-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
 }
 
+/* roboto-500 - latin */
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Bold"), local("Roboto-Bold"), url("font/roboto/Robotobold.woff2") format("woff2"), url("font/roboto/Robotobold.woff") format("woff"), url("font/roboto/Robotobold.ttf") format("truetype");
-  font-weight: 700;
   font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v20-latin-500.eot");
+  src: local(""), url("../fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin-500.woff") format("woff"), url("../fonts/roboto-v20-latin-500.ttf") format("truetype"), url("../fonts/roboto-v20-latin-500.svg#Roboto") format("svg");
 }
 
+/* montserrat-900 - latin */
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto Black"), local("Roboto-Black"), url("font/roboto/Robotoblack.woff2") format("woff2"), url("font/roboto/Robotoblack.woff") format("woff"), url("font/roboto/Robotoblack.ttf") format("truetype");
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 900;
+  src: url("../fonts/montserrat-v15-latin-900.eot");
+  src: local(""), url("../fonts/montserrat-v15-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v15-latin-900.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-900.woff") format("woff"), url("../fonts/montserrat-v15-latin-900.ttf") format("truetype"), url("../fonts/montserrat-v15-latin-900.svg#Montserrat") format("svg");
+}
+
+/* lato-regular - latin */
+@font-face {
+  font-family: "Lato";
   font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-v17-latin-regular.eot");
+  src: local(""), url("../fonts/lato-v17-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-v17-latin-regular.woff2") format("woff2"), url("../fonts/lato-v17-latin-regular.woff") format("woff"), url("../fonts/lato-v17-latin-regular.ttf") format("truetype"), url("../fonts/lato-v17-latin-regular.svg#Lato") format("svg");
 }
 
-body {
-  display: flex;
-  justify-content: center;
+html {
+  box-sizing: border-box;
 }
 
-.wrapper {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+header, main, footer {
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .top-header {
+  background-color: #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.top-header__wrapper {
+  max-width: 1109px;
+  margin: 0 auto;
+  padding: 20px 0;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+}
+
+.top-header__nav-item {
+  display: inline-block;
+  list-style: none;
+}
+
+.top-header__btn {
+  width: 120px;
+  height: 47px;
+  border: none;
+  padding: 13px 26px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.top-header__btn-login {
+  background-color: transparent;
+}
+
+.top-header__btn-reg {
+  background-color: #ea5289;
+  border-radius: 5px;
+}
+
+.ad-network {
+  position: relative;
+  background: url(/image/svg/method-draw-image.svg) no-repeat;
+  background-color: #000000;
+}
+
+.ad-network__wrapper {
+  max-width: 1109px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ad-network__caption {
+  margin: 175px 0 48px;
   width: 100%;
-  height: 87px;
-  padding: 20px 164px;
-  background: #000000;
+}
+
+.ad-network__caption-row {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.ad-network__spaceman {
+  position: absolute;
+  width: 100px;
+  height: 109px;
+  bottom: 40px;
+  right: 375px;
+  transform: rotate(-10deg);
+  background: url(/image/svg/spaceman.svg) no-repeat;
+  background-color: #000000;
+}
+
+.ad-network__start-btn {
+  width: 280px;
+  height: 72px;
+  border: none;
+  border-radius: 60px;
+  background: #ea5289;
+  color: #ffffff;
+  margin-bottom: 254px;
+}
+
+.page-footer {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.page-footer__wrapper {
+  max-width: 1109px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-footer__logo-wrapper {
+  width: 100%;
+}
+
+.social-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 49%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #36343c;
+}
+
+.social-conteiner__link {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-conteiner__description {
+  width: 76%;
+}
+
+.social-conteiner__icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon__fb {
+  background: url(/image/svg/facebook.svg) no-repeat;
+}
+
+.icon__in {
+  margin: 0 34px;
+  background: url(/image/svg/linkedin.svg) no-repeat;
+}
+
+.icon__isg {
+  background: url(/image/svg/instagram.svg) no-repeat;
+}
+
+.inform-conteiner {
+  width: 49%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.inform__address {
+  width: 441px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: right;
+  color: #8d889c;
+}
+
+.bottom-nav__link {
+  display: inline-block;
+  list-style: none;
+  margin-left: 25px;
 }
 /*# sourceMappingURL=main.css.map */
