@@ -1,7 +1,6 @@
 .ad-network {
     position: relative;
-    background: url(/image/svg/background01.svg) no-repeat;
-    background-color: $black;
+    background: url(/image/svg/background01.svg) no-repeat, $black;
     &__wrapper {
         max-width: 1109px;
         margin: 0 auto;
@@ -22,7 +21,7 @@
             color: $white;
             text-align: center;
             text-transform: uppercase;
-            color: #ffffff;
+            color: $white;
         }
     }
     &__spaceman {
