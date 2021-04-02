@@ -1,0 +1,12 @@
+.logo-section {
+
+    background: $white url(/image/svg/background03.svg) no-repeat;
+    &__wrapper {
+        max-width: 1109px;
+        margin: 0 auto;
+        padding: 55px 0;   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

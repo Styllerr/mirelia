@@ -2,18 +2,18 @@
 Подготовили дизайн нового сайта Mirelia Networks, который будет расположен на домене mirelia.co.
 
 Сайт должен содержать 12 страниц и систему добавления контента:
-Main page - главная страница сайта; (https://mirelia.co/ )
-About us - страница описание нетворка (https://mirelia.co/about )
-Advertisers - страница посвящена рекламодателям (https://mirelia.co/advertisers )
-Affiliates - страница посвящена аффилиатам (https://mirelia.co/affiliate )
-Contact us - форма; свяжитесь с нами (https://mirelia.co/contact )
-Referral Program - реферальная программа сотрудничества с партнерами (https://mirelia.co/referral )
+/////--Main page - главная страница сайта; (https://mirelia.co/ )
+/////--About us - страница описание нетворка (https://mirelia.co/about )
+/////--Advertisers - страница посвящена рекламодателям (https://mirelia.co/advertisers )
+/////--Affiliates - страница посвящена аффилиатам (https://mirelia.co/affiliate )
+/////--Contact us - форма; свяжитесь с нами (https://mirelia.co/contact )
+/////--Referral Program - реферальная программа сотрудничества с партнерами (https://mirelia.co/referral )
 Affiliate Sign up - форма; заполняет аффилиаты для регистрации (https://mirelia.co/affiliate/signup )
-Privacy Policy - политика конфиденциальности ( https://mirelia.co/policy )
-Terms & Conditions - термзы (https://mirelia.co/terms )
-Tracking Policy - новая вкладка термзов; (https://mirelia.co/tracking )
-Blog - страница блога с поисковой строкой и статьями
-Blog article - статья блога
+/////--Privacy Policy - политика конфиденциальности ( https://mirelia.co/policy )
+/////--Terms & Conditions - термзы (https://mirelia.co/terms )
+/////--Tracking Policy - новая вкладка термзов; (https://mirelia.co/tracking )
+/////--Blog - страница блога с поисковой строкой и статьями
+/////--Blog article - статья блога
 Общее описание:
 Нужно сверстать сайт по макету: https://www.figma.com/file/WGfMo3pGIn3WKoP8Ii6dYh/Mirelia?node-id=0%3A1 
 Апдейт 1:

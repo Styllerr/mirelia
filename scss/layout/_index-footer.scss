@@ -10,10 +10,25 @@
         margin: 0 auto;
         padding: 20px 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     &__logo-wrapper {
         width: 100%;
+    }
+    &__bottom-conteiner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-top: 1px solid $ship-gray;
+        padding-top: 34px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 27px;
+        color: $manatee;
     }
 }
 .social-conteiner {
@@ -21,7 +36,6 @@
     flex-wrap: wrap;
     width: 49%;
     padding-bottom: 30px;
-    border-bottom: 1px solid $ship-gray;
     &__link {
         width: 22px;
         height: 22px;
@@ -58,18 +72,25 @@
     flex-wrap: wrap;
 }
 .inform {
-    &__bottom-nav {
-    }
     &__address {
-        // width: 79.5%;
         width: 441px;
         font-size: 14px;
         line-height: 22px;
         text-align: right;
-        color: #8d889c;
+        color: $manatee;
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: $manatee;
+        & > span {
+            color: $white;
+        }
     }
 }
-.bottom-nav {
+.bottom-nav,
+.bottom-conteiner {
     &__link {
         display: inline-block;
         list-style: none;

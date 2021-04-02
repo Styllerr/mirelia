@@ -1,0 +1,51 @@
+.increas-leads-section {
+    position: relative;
+    background: url(/image/svg/background04.svg);
+    &__wrapper {
+        max-width: 1109px;
+        margin: 0 auto;
+        padding: 66px 0 80px;
+    }
+    &__caption {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: left;
+        text-transform: uppercase;
+        color: $white;
+        margin: 0;
+    }
+    &__description {
+        max-width: 634px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        margin: 20px 0 36px;
+        color: $lavender-gray;
+    }
+    &__startBtn {
+        width: 280px;
+        height: 72px;
+        background: $french-rose;
+        border: none;
+        border-radius: 60px;
+        padding: 26px 72px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        cursor: pointer;
+        color: $white;
+    }
+    &__rocket {
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+    }
+}

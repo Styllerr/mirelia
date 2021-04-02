@@ -10,7 +10,14 @@
         margin: 0 auto;
         padding: 20px 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+    &__navigation {
+        flex-grow: 1;
+        & >ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
     }
     &__nav-item {
         display: inline-block;

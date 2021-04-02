@@ -1,6 +1,6 @@
 .ad-network {
     position: relative;
-    background: url(/image/svg/method-draw-image.svg) no-repeat;
+    background: url(/image/svg/background01.svg) no-repeat;
     background-color: $black;
     &__wrapper {
         max-width: 1109px;
@@ -30,10 +30,10 @@
         width: 100px;
         height: 109px;
         bottom: 40px;
-        right: 375px;
+        right: 25%;
         transform: rotate(-10deg);
         background: url(/image/svg/spaceman.svg) no-repeat;
-        background-color: $black;
+        background-color: transparent;
     }
     &__start-btn {
         width: 280px;
@@ -41,6 +41,7 @@
         border: none;
         border-radius: 60px;
         background: $french-rose;
+        cursor: pointer;
         color: $white;
         margin-bottom: 254px;
     }

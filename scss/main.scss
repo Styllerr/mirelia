@@ -7,4 +7,8 @@
 @import 'base/typography',
         'base/base';
 
-@import 'layout/header', 'layout/advertising', 'layout/footer';
+@import 'layout/index-header', 'layout/index-ad-network', 'layout/index-footer', 
+'layout/index-advertise', 'layout/index-ad-formats', 'layout/index-targeting', 
+'layout/index-logo-section', 'layout/index-increas-leads';
+
+@import 'layout/index-header';
