@@ -1,7 +1,8 @@
 .ad-formats-section {
-    height: 1140.82px;
+    padding-bottom: 81px;
     background: url(/image/svg/background02.svg) no-repeat,
         linear-gradient(to bottom, $black 50%, $white 50%);
+        background-position: top;
     &__wrapper {
         max-width: 1109px;
         margin: 0 auto;

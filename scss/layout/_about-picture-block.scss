@@ -1,0 +1,16 @@
+.picture-block {
+    display: flex;
+    flex-wrap: wrap;
+    height: 690px;
+    background: $white;
+    &__monitor {
+        width: 49%;
+        max-width: 656px;
+        background:  url(/image/svg/about-monitor-full.svg) no-repeat;
+    }
+    &__diagram {
+        width:49%;
+        max-width: 600px;
+        background:  url(/image/svg/about-diagram-full.svg) no-repeat;
+    }
+}
