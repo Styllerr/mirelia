@@ -1,0 +1,13 @@
+.values-section {
+    padding: 158px 0 100px;
+    background: $white url(/image/svg/background08.svg) no-repeat;
+    &__wrapper {
+        padding-bottom: 0;
+    }
+    &__img-caption {
+        color: $white;
+    }
+    &__caption {
+        color: $white;
+    }
+}

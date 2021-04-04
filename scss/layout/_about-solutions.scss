@@ -1,0 +1,23 @@
+.solutions-section {
+    padding-top: 33px;
+    &__card {
+        width: 532px;
+        height: 148px;
+        background: $white;
+        border-radius: 20px;
+        padding: 30px 36px;
+        margin-bottom: 48px;
+    }
+}
+.solutions-card {
+    &__caption {
+        margin: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: $eminence;
+    }
+}

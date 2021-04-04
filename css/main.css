@@ -614,21 +614,21 @@ body {
   margin-left: 25px;
 }
 
-.advertise-section {
+.advertise-section, .solutions-section {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  background-color: #000000;
+  background-color: #1F1F1F;
   padding-top: 65px;
 }
 
-.advertise-section__wrapper {
+.advertise-section__wrapper, .solutions-section__wrapper {
   max-width: 1109px;
   margin: 0 auto;
 }
 
-.advertise-section__caption {
+.advertise-section__caption, .solutions-section__caption {
   width: 100%;
   font-family: "Montserrat";
   font-style: normal;
@@ -641,13 +641,13 @@ body {
   margin: 0 0 67px;
 }
 
-.advertise-section__card-wrapper {
+.advertise-section__card-wrapper, .solutions-section__card-wrapper {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.advertise-section__card {
+.advertise-section__card, .solutions-section__card {
   width: 320px;
   height: 148px;
   background: #ffffff;
@@ -755,7 +755,7 @@ body {
   margin: 0;
 }
 
-.targeting-section {
+.targeting-section, .values-section {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -763,7 +763,7 @@ body {
   padding-top: 65px;
 }
 
-.targeting-section__wrapper {
+.targeting-section__wrapper, .values-section__wrapper {
   max-width: 832px;
   margin: 0 auto;
   padding-bottom: 55px;
@@ -772,7 +772,7 @@ body {
   justify-content: space-between;
 }
 
-.targeting-section__caption {
+.targeting-section__caption, .values-section__caption {
   width: 100%;
   font-family: "Montserrat";
   font-style: normal;
@@ -785,21 +785,21 @@ body {
   margin: 0 0 67px;
 }
 
-.targeting-section__conteiner {
+.targeting-section__conteiner, .values-section__conteiner {
   width: 24%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.targeting-section__conteiner > figure {
+.targeting-section__conteiner > figure, .values-section__conteiner > figure {
   width: 160px;
   height: 124px;
   margin: 0 0 55px;
   text-align: center;
 }
 
-.targeting-section__img-caption {
+.targeting-section__img-caption, .values-section__img-caption {
   margin-top: 22px;
   font-family: "Lato";
   font-style: normal;
@@ -1035,11 +1035,127 @@ body {
   width: 49%;
   max-width: 656px;
   background: url(/image/svg/about-monitor-full.svg) no-repeat;
+  background-size: contain;
 }
 
 .picture-block__diagram {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
   width: 49%;
-  max-width: 600px;
-  background: url(/image/svg/about-diagram-full.svg) no-repeat;
+  max-width: 656px;
+}
+
+.picture-block__diagram > img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.picture-block__arrow-conteiner {
+  margin: 0 40px 0 auto;
+}
+
+.picture-block__arrow {
+  width: 36px;
+  height: 24px;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+}
+
+.picture-block__arrow-prev {
+  background: transparent url(/image/svg/about-arrow-prev-thin.svg) no-repeat;
+  background-position-y: center;
+}
+
+.picture-block__arrow-next {
+  background: transparent url(/image/svg/about-arrow-next-thick.svg) no-repeat;
+  background-position-y: center;
+}
+
+.values-section {
+  padding: 158px 0 100px;
+  background: #ffffff url(/image/svg/background08.svg) no-repeat;
+}
+
+.values-section__wrapper {
+  padding-bottom: 0;
+}
+
+.values-section__img-caption {
+  color: #ffffff;
+}
+
+.values-section__caption {
+  color: #ffffff;
+}
+
+.solutions-section {
+  padding-top: 33px;
+}
+
+.solutions-section__card {
+  width: 532px;
+  height: 148px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 36px;
+  margin-bottom: 48px;
+}
+
+.solutions-card__caption {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #773288;
+}
+
+.start-btn-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #1F1F1F url(/image/svg/background09.svg) no-repeat;
+  padding: 100px 0 82px 0;
+}
+
+.start-btn-section__text {
+  max-width: 987px;
+  margin: 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.start-btn-conteiner {
+  text-align: center;
+  width: 100%;
+}
+
+.start-btn-conteiner__startBtn {
+  width: 280px;
+  height: 72px;
+  margin-top: 30px;
+  background: #ea5289;
+  border: none;
+  border-radius: 60px;
+  padding: 26px 72px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

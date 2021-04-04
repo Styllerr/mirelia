@@ -7,10 +7,37 @@
         width: 49%;
         max-width: 656px;
         background:  url(/image/svg/about-monitor-full.svg) no-repeat;
+        background-size: contain;
     }
     &__diagram {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-start;
         width:49%;
-        max-width: 600px;
-        background:  url(/image/svg/about-diagram-full.svg) no-repeat;
+        max-width: 656px;
+        > img {
+            margin: 0;
+            width: 100%;
+            height:auto;
+        }
+    }
+    &__arrow-conteiner {
+        margin: 0 40px 0 auto;
+    }
+    &__arrow {
+        width: 36px;
+        height: 24px;
+        border: none;
+        color: transparent;
+        cursor: pointer;
+        &-prev {
+            background: transparent url(/image/svg/about-arrow-prev-thin.svg) no-repeat;
+            background-position-y: center;
+        }
+        &-next {
+            background: transparent url(/image/svg/about-arrow-next-thick.svg) no-repeat;
+            background-position-y: center;
+        }
     }
 }
