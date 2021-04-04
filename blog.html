@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <title>Mirelia Networks - Blog</title>
 </head>
+
 <body>
     <header class="top-header">
         <div class="top-header__wrapper">
@@ -42,8 +44,49 @@
             </div>
         </div>
     </header>
-    <main>
-        Blog
+    <main class="blog-page-main">
+        <article class="blog-section">
+            <h1 class="blog-section__header">
+                blog
+            </h1>
+            <div class="blog-section__content-wrapper blog-content">
+                <div class="blog-content__controls">
+                    <div class="blog-content__filters">
+                        <button name="Features article" class="blog-content-filter__btn">Features</button>
+                        <button name="Meet us article" class="blog-content-filter__btn">Meet us</button>
+                        <button name="Updates article" class="blog-content-filter__btn">Updates</button>
+                        <button name="News article"
+                            class="blog-content-filter__btn blog-content-filter__btn_active">News</button>
+                        <button name="Cases article" class="blog-content-filter__btn">Cases</button>
+                    </div>
+                    <div class="blog-content__search">
+                        <input type="search" class="blog-content-search__field" placeholder="Search">
+                        <button name="Search article" value=" "></button>
+                    </div>
+                </div>
+                <div class="blog-content__card-conteiner">
+                    <div class="blog-content__card">
+                        <a href="#" class="blog-content-card__link">
+                            <img src="/image/svg/blog-card-img.svg" alt="Article picture"
+                                class="blog-content-card__image">
+                            <p class="blog-content-card__date">8 October 2019</p>
+                            <h4 class="blog-content-card__caption">Why you should run your ads at the weekend?</h4>
+                            <p class="blog-content-card__description">There are many different opinions, how when and
+                                where</p>
+                        </a>
+                    </div>
+                </div>
+                <nav class="blog-content__page-navigation">
+                    <button name="Page navigation"
+                        class="blog-content-navigation__btn blog-content-navigation__btn_active"></button>
+                    <button name="Page navigation" class="blog-content-navigation__btn"></button>
+                    <button name="Page navigation" class="blog-content-navigation__btn"></button>
+                    <button name="Page navigation" class="blog-content-navigation__btn"></button>
+                    <button name="Page navigation" class="blog-content-navigation__btn"></button>
+                    <button name="Page navigation" class="blog-content-navigation__btn"></button>
+                </nav>
+            </div>
+        </article>
     </main>
     <footer class="page-footer">
         <div class="page-footer__wrapper">
@@ -90,4 +133,26 @@
         </div>
     </footer>
 </body>
+
 </html>
+
+<!-- <style>
+    .search {
+     width: 300px; /* Ширина поля с кнопкой */
+     border: 1px solid #000; /* Параметры рамки */
+     min-height: 20px; /* Минимальная высота */
+    }
+    input[type="search"] {
+     border: none; /* Убираем рамку */
+     outline: none; /* Убираем свечение в Chrome и Safari */
+     -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+     width: 274px; /* Ширина поля */
+     vertical-align: middle; /* Выравнивание по середине */
+    }
+    input[type="submit"] {
+     width: 20px; /* Ширина кнопки */
+     height: 20px; /* Высота кнопки */
+     border: none; /* Убираем рамку */
+     background: url(images/video.png) no-repeat 50% 50%; /* Параметры фона */
+    }
+   </style> -->
