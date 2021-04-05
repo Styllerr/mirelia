@@ -110,8 +110,10 @@
     &__textarea {
         outline: none;
         -moz-appearance: none;
-        border: 1px solid #999;
+        border: none;
         background-color: #f1f1f1;
+        resize: none;
+        overflow: auto;
         &-label {
             font-family: "Lato";
             font-style: normal;
@@ -141,5 +143,10 @@
         font-size: 18px;
         line-height: 21px;
         color: $white;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            @extend %btn-hover;
+        }
     }
 }
