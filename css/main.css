@@ -398,7 +398,7 @@ body {
 }
 
 .top-header {
-  background-color: #1F1F1F;
+  background-color: #000000;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -507,7 +507,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  background-color: #1F1F1F;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -1166,7 +1166,7 @@ main.blog-page-main {
 .blog-section {
   max-width: 1109px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 0 119px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -1190,7 +1190,7 @@ main.blog-page-main {
   font-family: "Lato";
   font-style: normal;
   font-weight: normal;
-  color: #524c4c;
+  color: #524C4C;
 }
 
 .blog-content__controls {
@@ -1220,6 +1220,96 @@ main.blog-page-main {
 }
 
 .blog-content__card-conteiner {
-  padding: 79px 0 0;
+  padding: 79px 0 86px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-content-card {
+  margin-bottom: 61px;
+  max-width: 328px;
+  height: 430px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.blog-content-card__text-wraper {
+  padding: 32px 35px 0;
+}
+
+.blog-content-card__text-wraper > p {
+  margin: 0;
+}
+
+.blog-content-card__date {
+  position: relative;
+  padding-left: 27px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+  color: #773288;
+}
+
+.blog-content-card__date::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  width: 18px;
+  height: 23px;
+  background-image: url(/image/svg/blog-calendar-icon.svg);
+}
+
+.blog-content-card__caption {
+  margin: 16px 0 6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #773288;
+}
+
+.blog-content-card__description {
+  position: relative;
+  font-size: 18px;
+  line-height: 25px;
+  color: #524C4C;
+}
+
+.blog-content-card__description::after {
+  content: "";
+  width: 32px;
+  height: 20px;
+  position: absolute;
+  bottom: 2px;
+  right: 17px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.blog-content__page-navigation {
+  text-align: center;
+}
+
+.blog-content-navigation__btn {
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-right: 11px;
+}
+
+.blog-content-navigation__btn:last-of-type {
+  margin-right: 0;
+}
+
+.blog-content-navigation__btn_active {
+  color: #ffffff;
+  background: #ea5289;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=main.css.map */
