@@ -51,6 +51,35 @@ main.blog-page-main {
             }
         }
     }
+    &__search {
+        width: 326px;
+        height: 44px;
+        background-color: $white;
+        border-color: $mine-shaft;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 17px;
+    }
+    &__field {
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        width: 282px;
+        vertical-align: middle;
+    }
+    &__search-btn {
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        background: $french-rose;
+        border: none;
+        border-radius: 0px 6px 6px 0px;
+        background-image: url(/image/svg/blog-lens.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     &__card-conteiner {
         padding: 79px 0 86px;
         display: flex;

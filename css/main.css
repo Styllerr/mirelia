@@ -1219,6 +1219,38 @@ main.blog-page-main {
   background-color: #ea5289;
 }
 
+.blog-content__search {
+  width: 326px;
+  height: 44px;
+  background-color: #ffffff;
+  border-color: #1F1F1F;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 17px;
+}
+
+.blog-content__field {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  width: 282px;
+  vertical-align: middle;
+}
+
+.blog-content__search-btn {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: #ea5289;
+  border: none;
+  border-radius: 0px 6px 6px 0px;
+  background-image: url(/image/svg/blog-lens.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .blog-content__card-conteiner {
   padding: 79px 0 86px;
   display: flex;
