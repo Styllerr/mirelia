@@ -95,5 +95,12 @@
         display: inline-block;
         list-style: none;
         margin-left: 25px;
+        & > a {
+            color: $white;
+            transition: color 0.3s;
+            &:hover {
+                @extend %link-hover;
+            }
+        }
     }
 }

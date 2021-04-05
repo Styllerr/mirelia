@@ -35,5 +35,9 @@
         text-align: center;
         cursor: pointer;
         color: $white;
+        transition: 0.3s;
+        &:hover {
+            @extend %btn-hover;
+        }
     }
 }

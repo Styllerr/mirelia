@@ -2,7 +2,7 @@
     background-color: $black;
     font-family: "Roboto";
     font-style: normal;
-    font-weight: 500;   
+    font-weight: 500;
     line-height: 21px;
     color: $white;
     &__wrapper {
@@ -14,7 +14,7 @@
     }
     &__navigation {
         flex-grow: 1;
-        & >ul {
+        & > ul {
             display: flex;
             justify-content: space-evenly;
         }
@@ -34,11 +34,27 @@
         display: inline-block;
         cursor: pointer;
         &-login {
+            color: $white;
             background-color: transparent;
+            transition: color 0.3s;
+            &:hover {
+                @extend %link-hover;
+            }
         }
         &-reg {
             background-color: $french-rose;
             border-radius: 5px;
+            transition: 0.3s;
+            &:hover {
+                @extend %btn-hover;
+            }
+        }
+    }
+    &__nav-link {
+        color: $white;
+        transition: color 0.3s;
+        &:hover {
+            @extend %link-hover;
         }
     }
 }

@@ -1,12 +1,13 @@
 .ad-network {
     position: relative;
-    background: url(/image/svg/background01.svg) no-repeat, $black;
+    background: url(/image/svg/background01.svg) no-repeat, $mine-shaft;
     &__wrapper {
         max-width: 1109px;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding-bottom: 254px;
     }
     &__caption {
         margin: 175px 0 48px;
@@ -42,6 +43,9 @@
         background: $french-rose;
         cursor: pointer;
         color: $white;
-        margin-bottom: 254px;
+        transition: 0.3s;
+        &:hover {
+            @extend %btn-hover;
+        }
     }
 }
