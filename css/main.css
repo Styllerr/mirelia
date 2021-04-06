@@ -1731,7 +1731,7 @@ main.blog-page-main {
 
 .advertisers-how-start {
   padding-bottom: 81px;
-  background: #1F1F1F url(/image/svg/background10.svg);
+  background-color: #ffffff;
 }
 
 .advertisers-how-start__wrapper {
@@ -1762,6 +1762,7 @@ main.blog-page-main {
 }
 
 .number-block__point-wrapper {
+  width: 176px;
   text-align: center;
 }
 
@@ -1795,5 +1796,11 @@ main.blog-page-main {
 .number-block__text {
   width: 100%;
   margin-top: 36px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #524C4C;
 }
 /*# sourceMappingURL=main.css.map */
