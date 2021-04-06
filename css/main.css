@@ -587,16 +587,22 @@ body {
 }
 
 .icon__fb {
+  margin-right: 34px;
   background: url(/image/svg/facebook.svg) no-repeat;
 }
 
 .icon__in {
-  margin: 0 34px;
+  margin-right: 34px;
   background: url(/image/svg/linkedin.svg) no-repeat;
 }
 
 .icon__isg {
+  margin-right: 34px;
   background: url(/image/svg/instagram.svg) no-repeat;
+}
+
+.icon__tw {
+  background: url(/image/svg/twitter.svg) no-repeat;
 }
 
 .inform-conteiner {
@@ -1616,5 +1622,135 @@ main.blog-page-main {
   color: #ffffff;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.advertisers-main {
+  background-color: #1F1F1F;
+}
+
+.advertisers-withus {
+  max-width: 1109px;
+  margin: 0 auto;
+  padding: 104px 0 135px;
+}
+
+.advertisers-withus__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advertisers-withus__payment-method {
+  max-width: 412px;
+}
+
+.advertisers__advantages {
+  padding-left: 25px;
+  max-width: 610px;
+}
+
+.payment-method__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #ea5289;
+  margin: 0;
+}
+
+.payment-method__subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+.payment-method__img-wrapper {
+  max-width: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.payment-method__img-header {
+  width: 100%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 50px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.payment-method__img-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 102px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 29px;
+}
+
+.advantages__title {
+  position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages__title::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -25px;
+  background: url(/image/svg/triangel.svg) no-repeat;
+  height: 28px;
+  width: 28px;
+}
+
+.advantages__description {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.advertisers-how-start {
+  padding-bottom: 81px;
+  background: #ffffff;
+}
+
+.advertisers-how-start__wrapper {
+  max-width: 1109px;
+  margin: 0 auto;
+  padding-top: 56px;
+  text-align: center;
+}
+
+.advertisers-how-start__caption {
+  width: 100%;
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
 }
 /*# sourceMappingURL=main.css.map */

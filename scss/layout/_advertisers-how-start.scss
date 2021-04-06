@@ -1,0 +1,22 @@
+.advertisers-how-start {
+    padding-bottom: 81px;
+    background: $white;
+    &__wrapper {
+        max-width: 1109px;
+        margin: 0 auto;
+        padding-top: 56px;
+        text-align: center;
+    }
+    &__caption {
+        width: 100%;
+        margin: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 66px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $black;
+    }
+}
