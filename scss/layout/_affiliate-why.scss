@@ -1,0 +1,66 @@
+.affiliates {
+    &-why {
+        &-section {
+            background-color: $mine-shaft;
+        }
+        &__wrapper {
+            max-width: 1109px;
+            margin: 0 auto;
+            padding: 104px 0 135px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__payment-method {
+            max-width: 412px;
+        }
+    }
+    &__advantages {
+        padding-left: 25px;
+        max-width: 610px;
+    }
+}
+.business-models {
+    &__subtitle {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: $white;
+        margin: 0;
+    }
+    &__card-wrapper {
+        max-width: 394px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__card-header {
+        width: 100%;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 50px;
+        color: $white;
+        margin: 70px 0 27px;
+    }
+    &__card-conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 164px;
+        height: 70px;
+        background: $white;
+        border-radius: 16px;
+        margin-bottom: 29px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: $eminence;
+    }
+}
