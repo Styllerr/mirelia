@@ -1756,11 +1756,13 @@ main.blog-page-main {
 
 .number-block {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .number-block__point-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -1780,5 +1782,10 @@ main.blog-page-main {
   font-size: 40px;
   line-height: 25px;
   color: #ffffff;
+}
+
+.number-block__text {
+  width: 100%;
+  margin-top: 36px;
 }
 /*# sourceMappingURL=main.css.map */
