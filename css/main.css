@@ -1731,11 +1731,11 @@ main.blog-page-main {
 
 .advertisers-how-start {
   padding-bottom: 81px;
-  background: #ffffff;
+  background: #1F1F1F url(/image/svg/background10.svg);
 }
 
 .advertisers-how-start__wrapper {
-  max-width: 1109px;
+  max-width: 900px;
   margin: 0 auto;
   padding-top: 56px;
   text-align: center;
@@ -1758,22 +1758,21 @@ main.blog-page-main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 68px 0 78px;
 }
 
 .number-block__point-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
 }
 
 .number-block__point {
+  position: relative;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 78px;
   height: 78px;
-  left: 238px;
-  top: 1386px;
   background: #773288;
   border-radius: 18px;
   font-family: "Lato";
@@ -1782,6 +1781,15 @@ main.blog-page-main {
   font-size: 40px;
   line-height: 25px;
   color: #ffffff;
+}
+
+.number-block__arrow {
+  position: absolute;
+  width: 135px;
+  height: 101px;
+  top: -40px;
+  right: -110px;
+  background: url(/image/svg/advertisers-arrow.svg) no-repeat;
 }
 
 .number-block__text {
