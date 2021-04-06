@@ -1753,4 +1753,32 @@ main.blog-page-main {
   text-transform: uppercase;
   color: #000000;
 }
+
+.number-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number-block__point-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.number-block__point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78px;
+  height: 78px;
+  left: 238px;
+  top: 1386px;
+  background: #773288;
+  border-radius: 18px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 25px;
+  color: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
