@@ -1803,4 +1803,9 @@ main.blog-page-main {
   line-height: 25px;
   color: #524C4C;
 }
+
+.traffic-section {
+  background: url(/image/svg/background10.svg) no-repeat;
+  background-color: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
