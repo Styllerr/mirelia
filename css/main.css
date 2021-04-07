@@ -3,7 +3,7 @@
   color: #ea5289;
 }
 
-.top-header__btn-reg:hover, .ad-network__start-btn:hover, .increas-leads-section__startBtn:hover, .start-btn-conteiner__startBtn:hover, .blog-content-filter__btn_active:hover, .blog-content__search-btn:hover, .blog-content-navigation__btn_active:hover, .contact__submit:hover, .affiliates-header__start-btn:hover {
+.top-header__btn-reg:hover, .ad-network__start-btn:hover, .increas-leads-section__startBtn:hover, .start-btn-conteiner__startBtn:hover, .blog-content-filter__btn_active:hover, .blog-content__search-btn:hover, .blog-content-navigation__btn_active:hover, .contact__submit:hover, .affiliates-header__start-btn:hover, .affiliate-signup__submit:hover {
   opacity: 0.8;
 }
 
@@ -591,9 +591,17 @@ body {
   background: url(/image/svg/facebook.svg) no-repeat;
 }
 
+.icon__fb:hover {
+  fill: #ea5289;
+}
+
 .icon__in {
   margin-right: 34px;
   background: url(/image/svg/linkedin.svg) no-repeat;
+}
+
+.icon__in:hover {
+  fill: #ea5289;
 }
 
 .icon__isg {
@@ -601,8 +609,16 @@ body {
   background: url(/image/svg/instagram.svg) no-repeat;
 }
 
+.icon__isg:hover {
+  fill: #ea5289;
+}
+
 .icon__tw {
   background: url(/image/svg/twitter.svg) no-repeat;
+}
+
+.icon__tw:hover {
+  fill: #ea5289;
 }
 
 .inform-conteiner {
@@ -1582,6 +1598,7 @@ main.blog-page-main {
 }
 
 .contact__textarea {
+  width: 100%;
   outline: none;
   -moz-appearance: none;
   border: none;
@@ -1600,7 +1617,7 @@ main.blog-page-main {
 }
 
 .contact__textarea-wrapper {
-  width: 100%;
+  max-width: 672px;
   height: 111px;
   background: #f1f1f1;
   border-radius: 6px;
@@ -1608,7 +1625,7 @@ main.blog-page-main {
 }
 
 .contact__submit {
-  width: 672px;
+  width: 100%;
   height: 72px;
   margin-top: 49px;
   background: #ea5289;
@@ -1622,6 +1639,10 @@ main.blog-page-main {
   color: #ffffff;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.contact__submit-wrapper {
+  max-width: 672px;
 }
 
 .advertisers-main {
@@ -2035,5 +2056,145 @@ main.blog-page-main {
   line-height: 25px;
   text-transform: uppercase;
   color: #773288;
+}
+
+.affiliate-signup {
+  background: #ffffff;
+}
+
+.affiliate-signup__wrapper {
+  max-width: 900px;
+  padding: 102px 0 0 0;
+  margin: 0 auto;
+}
+
+.affiliate-signup__header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F1F1F;
+  margin: 0;
+}
+
+.affiliate-signup__form {
+  padding: 65px 0 140px;
+  max-width: 672px;
+  margin: 0 auto;
+}
+
+.affiliate-signup__name, .affiliate-signup__company, .affiliate-signup__email, .affiliate-signup__messenger, .affiliate-signup__1st-question, .affiliate-signup__7th-question, .affiliate-signup__8th-question {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  width: 100%;
+  vertical-align: middle;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #524C4C;
+}
+
+.affiliate-signup__name-label, .affiliate-signup__company-label, .affiliate-signup__email-label, .affiliate-signup__messenger-label, .affiliate-signup__1st-question-label, .affiliate-signup__7th-question-label, .affiliate-signup__8th-question-label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #524C4C;
+}
+
+.affiliate-signup__name-wrapper, .affiliate-signup__company-wrapper, .affiliate-signup__email-wrapper, .affiliate-signup__messenger-wrapper, .affiliate-signup__1st-question-wrapper, .affiliate-signup__7th-question-wrapper, .affiliate-signup__8th-question-wrapper {
+  width: 100%;
+  height: 55px;
+  background: #f1f1f1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+}
+
+.affiliate-signup__2nd-question, .affiliate-signup__3d-question, .affiliate-signup__4th-question, .affiliate-signup__5th-question, .affiliate-signup__6th-question, .affiliate-signup__9th-question {
+  display: block;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #524C4C;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  appearance: none;
+  background-color: #f1f1f1;
+  background-image: url(/image/svg/contact-icon-select.svg), linear-gradient(to bottom, #f1f1f1 0%, #f1f1f1 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+}
+
+.affiliate-signup__2nd-question-label, .affiliate-signup__3d-question-label, .affiliate-signup__4th-question-label, .affiliate-signup__5th-question-label, .affiliate-signup__6th-question-label, .affiliate-signup__9th-question-label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #524C4C;
+}
+
+.affiliate-signup__2nd-question-wrapper, .affiliate-signup__3d-question-wrapper, .affiliate-signup__4th-question-wrapper, .affiliate-signup__5th-question-wrapper, .affiliate-signup__6th-question-wrapper, .affiliate-signup__9th-question-wrapper {
+  width: 100%;
+  height: 55px;
+  background: #f1f1f1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 0 17px;
+}
+
+.affiliate-signup__2nd-question-option, .affiliate-signup__3d-question-option, .affiliate-signup__4th-question-option, .affiliate-signup__5th-question-option, .affiliate-signup__6th-question-option, .affiliate-signup__9th-question-option {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #524C4C;
+}
+
+.affiliate-signup__submit {
+  width: 100%;
+  height: 72px;
+  margin-top: 49px;
+  background: #ea5289;
+  border: none;
+  border-radius: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.required-field::after {
+  content: "*";
+  color: red;
+}
+
+.btn-submit-wrapper {
+  max-width: 672px;
 }
 /*# sourceMappingURL=main.css.map */

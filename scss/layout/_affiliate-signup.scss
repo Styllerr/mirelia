@@ -1,4 +1,4 @@
-.contact {
+.affiliate-signup {
     background: $white;
     &__wrapper {
         max-width: 900px;
@@ -17,13 +17,17 @@
         margin: 0;
     }
     &__form {
-        padding: 65px 0 141px;
+        padding: 65px 0 140px;
         max-width: 672px;
         margin: 0 auto;
     }
     &__name,
-    &__surname,
-    &__account {
+    &__company,
+    &__email,
+    &__messenger,
+    &__1st-question,
+    &__7th-question,
+    &__8th-question {
         width: 100%;
         border: none;
         outline: none;
@@ -55,9 +59,12 @@
             padding-left: 17px;
         }
     }
-}
-.contact {
-    &__you-query {
+    &__2nd-question,
+    &__3d-question,
+    &__4th-question,
+    &__5th-question,
+    &__6th-question,
+    &__9th-question {
         display: block;
         font-family: "Lato";
         font-style: normal;
@@ -107,30 +114,6 @@
             color: $emperor;
         }
     }
-    &__textarea {
-        width: 100%;
-        outline: none;
-        -moz-appearance: none;
-        border: none;
-        background-color: #f1f1f1;
-        resize: none;
-        overflow: auto;
-        &-label {
-            font-family: "Lato";
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 38px;
-            color: $emperor;
-        }
-        &-wrapper {
-            max-width: 672px;
-            height: 111px;
-            background: #f1f1f1;
-            border-radius: 6px;
-            padding: 17px;
-        }
-    }
     &__submit {
         width: 100%;
         height: 72px;
@@ -149,8 +132,13 @@
         &:hover {
             @extend %btn-hover;
         }
-        &-wrapper {
-            max-width: 672px;
-        }
     }
+}
+.required-field::after {
+    content: "*";
+    color: red;
+}
+.btn-submit-wrapper {
+    max-width: 672px;
+
 }
