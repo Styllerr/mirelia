@@ -2197,4 +2197,109 @@ main.blog-page-main {
 .btn-submit-wrapper {
   max-width: 672px;
 }
+
+.referral-main {
+  background-color: #1F1F1F;
+}
+
+.referral-wrapper {
+  max-width: 1109px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.referral__text-block {
+  width: 49%;
+  padding: 105px 0 95px;
+}
+
+.referral__text-title {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.referral__text {
+  margin: 32px 0 0;
+  max-width: 512px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.referral__picture-block {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.referral__picture-wrapper {
+  width: 447px;
+  height: 336px;
+}
+
+.referral__picture {
+  width: 100%;
+}
+
+.referral-card-block {
+  background: #1F1F1F url(/image/svg/background14.svg) no-repeat;
+}
+
+.referral-card-block__wrapper {
+  max-width: 1109px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 140px 0 109px;
+}
+
+.referral-card__wrapper {
+  max-width: 328px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 31px 36px;
+  border-radius: 20px;
+}
+
+.referral-card__title {
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #773288;
+  margin: 0;
+}
+
+.referral-card__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #524C4C;
+  margin: 9px 0 0;
+}
+
+.referral-card__text-email {
+  font-weight: bold;
+  color: #f3a132;
+}
 /*# sourceMappingURL=main.css.map */
