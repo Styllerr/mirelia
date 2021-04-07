@@ -2314,6 +2314,42 @@ main.blog-page-main {
 .policy__wrapper {
   max-width: 1109px;
   margin: 0 auto;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #524C4C;
+}
+
+.policy a,
+.policy a:link,
+.policy a:visited,
+.policy a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+.policy p,
+.policy li {
+  margin: 16px 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #524C4C;
+  text-transform: none;
+}
+
+li.policy-list__caption {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #1F1F1F;
 }
 
 ol {
@@ -2324,5 +2360,9 @@ ol {
 ol > li:before {
   counter-increment: li;
   content: counters(li, ".") ". ";
+}
+
+ul {
+  list-style-type: disc;
 }
 /*# sourceMappingURL=main.css.map */
