@@ -1,0 +1,18 @@
+.policy {
+  padding-top: 67px;
+  &-page {
+    background-color: $white;
+  }
+  &__wrapper {
+    max-width: 1109px;
+    margin: 0 auto;
+  }
+}
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+ol > li:before {
+  counter-increment: li;
+  content: counters(li, ".") ". ";
+}

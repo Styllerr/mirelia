@@ -2302,4 +2302,27 @@ main.blog-page-main {
   font-weight: bold;
   color: #f3a132;
 }
+
+.policy {
+  padding-top: 67px;
+}
+
+.policy-page {
+  background-color: #ffffff;
+}
+
+.policy__wrapper {
+  max-width: 1109px;
+  margin: 0 auto;
+}
+
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+ol > li:before {
+  counter-increment: li;
+  content: counters(li, ".") ". ";
+}
 /*# sourceMappingURL=main.css.map */
