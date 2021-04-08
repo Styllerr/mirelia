@@ -382,6 +382,15 @@ template {
   src: local(""), url("../fonts/lato-v17-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-v17-latin-regular.woff2") format("woff2"), url("../fonts/lato-v17-latin-regular.woff") format("woff"), url("../fonts/lato-v17-latin-regular.ttf") format("truetype"), url("../fonts/lato-v17-latin-regular.svg#Lato") format("svg");
 }
 
+/* lato-700 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/lato-v17-latin-700.eot");
+  src: local(""), url("../fonts/lato-v17-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-v17-latin-700.woff2") format("woff2"), url("../fonts/lato-v17-latin-700.woff") format("woff"), url("../fonts/lato-v17-latin-700.ttf") format("truetype"), url("../fonts/lato-v17-latin-700.svg#Lato") format("svg");
+}
+
 html {
   box-sizing: border-box;
 }
@@ -2303,15 +2312,18 @@ main.blog-page-main {
   color: #f3a132;
 }
 
-.policy {
-  padding-top: 67px;
+.policy,
+.terms {
+  padding: 67px 0 151px;
 }
 
-.policy-page {
+.policy-page,
+.terms-page {
   background-color: #ffffff;
 }
 
-.policy__wrapper {
+.policy__wrapper,
+.terms__wrapper {
   max-width: 1109px;
   margin: 0 auto;
   font-family: "Lato";
@@ -2322,16 +2334,38 @@ main.blog-page-main {
   color: #524C4C;
 }
 
+.policy__title,
+.terms__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #1F1F1F;
+}
+
 .policy a,
 .policy a:link,
 .policy a:visited,
-.policy a:active {
+.policy a:active,
+.terms a,
+.terms a:link,
+.terms a:visited,
+.terms a:active {
   color: blue;
   text-decoration: underline;
 }
 
+.policy a:hover,
+.terms a:hover {
+  color: #ea5289;
+}
+
 .policy p,
-.policy li {
+.policy li,
+.terms p,
+.terms li {
   margin: 16px 0;
   font-family: "Lato";
   font-style: normal;
@@ -2342,7 +2376,9 @@ main.blog-page-main {
   text-transform: none;
 }
 
-li.policy-list__caption {
+li.policy-list__caption,
+li.terms-list__caption,
+h2.terms-list__caption {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
@@ -2364,5 +2400,15 @@ ol > li:before {
 
 ul {
   list-style-type: disc;
+}
+
+p.upper-text {
+  text-transform: uppercase;
+}
+
+span.color-text {
+  font-weight: 700;
+  font-size: 18px;
+  color: #773288;
 }
 /*# sourceMappingURL=main.css.map */

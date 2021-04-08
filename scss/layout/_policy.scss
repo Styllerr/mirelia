@@ -1,5 +1,6 @@
-.policy {
-    padding-top: 67px;
+.policy,
+.terms {
+    padding: 67px 0 151px;
     &-page {
         background-color: $white;
     }
@@ -13,12 +14,24 @@
         line-height: 22px;
         color: $emperor;
     }
+    &__title {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 66px;
+        text-transform: uppercase;
+        color: $mine-shaft;
+    }
     & a,
     & a:link,
     & a:visited,
     & a:active {
         color: blue;
         text-decoration: underline;
+    }
+    & a:hover {
+        color: $french-rose;
     }
     & p,
     & li {
@@ -32,7 +45,9 @@
         text-transform: none;
     }
 }
-li.policy-list__caption {
+li.policy-list__caption,
+li.terms-list__caption,
+h2.terms-list__caption {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 900;
@@ -51,4 +66,12 @@ ol > li:before {
 }
 ul {
     list-style-type: disc;
+}
+p.upper-text {
+    text-transform: uppercase;
+}
+span.color-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: $eminence;
 }
