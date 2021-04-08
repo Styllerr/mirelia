@@ -186,6 +186,7 @@
 }
 .bottom-conteiner__text {
     @media screen and (max-width: $screen-md) {
+        font-size: 11px;
         order: 1;
     }
 }

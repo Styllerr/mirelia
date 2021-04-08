@@ -33,9 +33,13 @@
             }
             display: flex;
             justify-content: space-evenly;
+            padding: 0;
         }
     }
     &__nav-item {
+        @media screen and (max-width: $screen-sd) {
+            margin-right: 1rem;
+        }
         display: inline-block;
         list-style: none;
     }

@@ -3,10 +3,10 @@
     background: url(/image/svg/background06.svg) no-repeat,
         linear-gradient(to bottom, $mine-shaft 50%, $white 50%);
     background-position: top;
+    background-size: cover;
     &__wrapper {
         max-width: 988px;
         margin: 0 auto;
-        // padding-top: 113px;
     }
     &__caption {
         font-family: "Montserrat";

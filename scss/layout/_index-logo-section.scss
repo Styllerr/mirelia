@@ -1,5 +1,9 @@
 .logo-section {
 
+    @media screen and (max-width: $screen-md) {
+        background-image: none;
+        background-color: #F1F7FD;
+    }
     background: $white url(/image/svg/background03.svg) no-repeat;
     &__wrapper {
         @media screen and (max-width: $screen-lg) {
@@ -14,7 +18,7 @@
     }
     &__img {
         @media screen and (max-width: $screen-lg) {
-            padding: 0 10px;
+            padding: 0 10px 15px;
         }
     }
 }

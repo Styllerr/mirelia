@@ -1,8 +1,8 @@
 .about-reach-section {
     background: $mine-shaft;
-    padding: 85px 0 90px;
     &__wrapper {
-        max-width: 1109px;
+        padding: 85px 10px 90px;
+        max-width: 1110px;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
@@ -29,7 +29,16 @@
     }
 }
 .reach-card {
-    width: 186px;
+    @media screen and (max-width: $screen-md) {
+        flex-basis: 32%;
+        margin-bottom: 15px;
+    }
+    @media screen and (max-width: $screen-sd) {
+        flex-basis: 49%;
+        margin-bottom: 15px;
+    }
+    flex-basis: 19%;
+    max-width: 186px;
     height: 180px;
     padding-top: 53px;
     background: $white;
