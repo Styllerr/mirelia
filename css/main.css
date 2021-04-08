@@ -2324,31 +2324,6 @@ main.blog-page-main {
   background-color: #ffffff;
 }
 
-.policy__wrapper,
-.terms__wrapper,
-.tracking__wrapper {
-  max-width: 1109px;
-  margin: 0 auto;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #524C4C;
-}
-
-.policy__title,
-.terms__title,
-.tracking__title {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 66px;
-  text-transform: uppercase;
-  color: #1F1F1F;
-}
-
 .policy a,
 .policy a:link,
 .policy a:visited,
@@ -2363,6 +2338,64 @@ main.blog-page-main {
 .tracking a:active {
   color: #524C4C;
   text-decoration: underline;
+}
+
+.policy__wrapper,
+.terms__wrapper,
+.tracking__wrapper {
+  max-width: 1109px;
+  margin: 0 auto;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #524C4C;
+}
+
+.policy__wrapper > a.download-pdf-link,
+.terms__wrapper > a.download-pdf-link,
+.tracking__wrapper > a.download-pdf-link {
+  position: relative;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  padding-left: 25px;
+  color: #ea5289;
+}
+
+.policy__wrapper > a.download-pdf-link:before,
+.terms__wrapper > a.download-pdf-link:before,
+.tracking__wrapper > a.download-pdf-link:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background: url(/image/svg/download.svg) no-repeat;
+}
+
+.policy__wrapper ol,
+.terms__wrapper ol,
+.tracking__wrapper ol {
+  padding: 0;
+}
+
+.policy__title,
+.terms__title,
+.tracking__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #1F1F1F;
 }
 
 .policy a:hover,

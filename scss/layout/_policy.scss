@@ -5,6 +5,13 @@
     &-page {
         background-color: $white;
     }
+    & a,
+    & a:link,
+    & a:visited,
+    & a:active {
+        color: $emperor;
+        text-decoration: underline;
+    }
     &__wrapper {
         max-width: 1109px;
         margin: 0 auto;
@@ -14,6 +21,30 @@
         font-size: 16px;
         line-height: 22px;
         color: $emperor;
+        & > a.download-pdf-link {
+            position: relative;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            padding-left: 25px;
+            color: $french-rose;
+            &:before {
+                content: "";
+                position: absolute;
+                top: -2px;
+                left: 0;
+                width: 24px;
+                height: 24px;
+                background: url(/image/svg/download.svg) no-repeat;
+            }
+        }
+        & ol {
+            padding: 0;
+        }
     }
     &__title {
         font-family: "Montserrat";
@@ -23,13 +54,6 @@
         line-height: 66px;
         text-transform: uppercase;
         color: $mine-shaft;
-    }
-    & a,
-    & a:link,
-    & a:visited,
-    & a:active {
-        color: $emperor;
-        text-decoration: underline;
     }
     & a:hover {
         color: $french-rose;
