@@ -3,14 +3,23 @@
         background-color: $mine-shaft;
     }
     &-withus {
-        max-width: 1109px;
+        max-width: 1110px;
         margin: 0 auto;
-        padding: 104px 0 135px;
+        padding: 104px 10px 135px;
         &__wrapper {
+            @media screen and (max-width: $screen-md) {
+                flex-wrap: wrap;
+            }
             display: flex;
             justify-content: space-between;
         }
         &__payment-method {
+            @media screen and (max-width: $screen-md) {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
             max-width: 412px;
         }
     }
@@ -31,6 +40,9 @@
         margin: 0;
     }
     &__subtitle {
+        @media screen and (max-width: $screen-md) {
+            text-align: center;
+        }
         font-family: "Montserrat";
         font-style: normal;
         font-weight: 900;

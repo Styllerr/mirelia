@@ -3,11 +3,12 @@
     background-color: $mine-shaft;
     background-position-y: -90px;
     &__wrapper {
-        max-width: 1109px;
+        max-width: 1110px;
         margin: 0 auto;
         display: flex;
         justify-content: flex-start;
         text-align: left;
+        
     }
     &__btn-block {
         max-width: 544px;

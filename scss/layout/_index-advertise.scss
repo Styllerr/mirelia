@@ -5,10 +5,15 @@
     line-height: 21px;
     background-color: $mine-shaft;
     &__wrapper {
-        max-width: 1109px;
+        max-width: 1110px;
         margin: 0 auto;
+
     }
     &__caption {
+        @media screen and (max-width: $screen-md) {
+            font-size: 32px;
+            line-height: 42px;
+        }
         width: 100%;
         font-family: "Montserrat";
         font-style: normal;
@@ -26,6 +31,10 @@
         flex-wrap: wrap;
     }
     &__card {
+        @media screen and (max-width: $screen-sd) {
+            width: 280px;
+            padding: 10px 10px;
+        }
         width: 320px;
         height: 148px;
         background: $white;

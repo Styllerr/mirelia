@@ -1,8 +1,11 @@
 .ad-formats-section {
+    @media screen and (max-width: $screen-md) {
+        background-size: cover;
+    }
     padding-bottom: 81px;
     background: url(/image/svg/background02.svg) no-repeat,
         linear-gradient(to bottom, $mine-shaft 50%, $white 50%);
-        background-position: top;
+    background-position: top;
     &__wrapper {
         max-width: 1109px;
         margin: 0 auto;
@@ -25,20 +28,36 @@
     }
 }
 .ad-formats-card {
+    @media screen and (max-width: $screen-md) {
+        flex-wrap: wrap;
+    }
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding-bottom: 75px;
     &__img-wrapper {
+        @media screen and (max-width: $screen-md) {
+            width: 100%;
+            order: 0;
+        }
         display: flex;
         justify-content: center;
         align-items: center;
     }
     &__img {
+        @media screen and (max-width: $screen-sd) {
+            width: 280px;
+        }
         width: 320px;
         height: 200px;
     }
     &__description {
+        @media screen and (max-width: $screen-md) {
+            width: 100%;
+            padding: 0 10px;
+            text-align: center;
+            order: 1;
+        }
         width: 45%;
     }
     &__marker {
