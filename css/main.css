@@ -2313,17 +2313,20 @@ main.blog-page-main {
 }
 
 .policy,
-.terms {
+.terms,
+.tracking {
   padding: 67px 0 151px;
 }
 
 .policy-page,
-.terms-page {
+.terms-page,
+.tracking-page {
   background-color: #ffffff;
 }
 
 .policy__wrapper,
-.terms__wrapper {
+.terms__wrapper,
+.tracking__wrapper {
   max-width: 1109px;
   margin: 0 auto;
   font-family: "Lato";
@@ -2335,7 +2338,8 @@ main.blog-page-main {
 }
 
 .policy__title,
-.terms__title {
+.terms__title,
+.tracking__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
@@ -2352,20 +2356,27 @@ main.blog-page-main {
 .terms a,
 .terms a:link,
 .terms a:visited,
-.terms a:active {
-  color: blue;
+.terms a:active,
+.tracking a,
+.tracking a:link,
+.tracking a:visited,
+.tracking a:active {
+  color: #524C4C;
   text-decoration: underline;
 }
 
 .policy a:hover,
-.terms a:hover {
+.terms a:hover,
+.tracking a:hover {
   color: #ea5289;
 }
 
 .policy p,
 .policy li,
 .terms p,
-.terms li {
+.terms li,
+.tracking p,
+.tracking li {
   margin: 16px 0;
   font-family: "Lato";
   font-style: normal;
@@ -2378,7 +2389,9 @@ main.blog-page-main {
 
 li.policy-list__caption,
 li.terms-list__caption,
-h2.terms-list__caption {
+li.tracking-list__caption,
+h2.terms-list__caption,
+h2.tracking-list__caption {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;

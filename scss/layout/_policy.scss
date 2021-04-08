@@ -1,5 +1,6 @@
 .policy,
-.terms {
+.terms,
+.tracking {
     padding: 67px 0 151px;
     &-page {
         background-color: $white;
@@ -27,7 +28,7 @@
     & a:link,
     & a:visited,
     & a:active {
-        color: blue;
+        color: $emperor;
         text-decoration: underline;
     }
     & a:hover {
@@ -47,7 +48,9 @@
 }
 li.policy-list__caption,
 li.terms-list__caption,
-h2.terms-list__caption {
+li.tracking-list__caption,
+h2.terms-list__caption,
+h2.tracking-list__caption {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 900;
