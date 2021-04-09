@@ -1350,6 +1350,7 @@ body {
 .whyus-section__wrapper {
   max-width: 988px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .whyus-section__caption {
@@ -1439,6 +1440,7 @@ body {
 }
 
 .picture-block__slide_show {
+  position: relative;
   opacity: 1;
 }
 
@@ -2857,7 +2859,7 @@ main.blog-page-main {
 }
 
 .referral-card-block {
-  background: #1F1F1F url(/image/svg/background14.svg) no-repeat;
+  background: #1F1F1F url(/image/svg/background14e.svg) no-repeat;
   background-size: cover;
 }
 
