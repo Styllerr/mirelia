@@ -3022,4 +3022,16 @@ span.color-text {
   font-size: 18px;
   color: #773288;
 }
+
+.tracking-table {
+  table-layout: fixed;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.tracking-table td,
+.tracking-table th {
+  padding: 5px;
+  border: 1px solid black;
+}
 /*# sourceMappingURL=main.css.map */
