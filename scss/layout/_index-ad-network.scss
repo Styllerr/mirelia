@@ -46,6 +46,11 @@
         border-radius: 60px;
         background: $french-rose;
         cursor: pointer;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
         color: $white;
         transition: 0.3s;
         &:hover {
