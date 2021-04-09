@@ -1810,19 +1810,43 @@ main.blog-page-main {
 }
 
 .blog-article {
-  padding: 94px 0 75px;
+  padding: 94px 10px 75px;
   background: #ffffff;
 }
 
+@media screen and (max-width: 479px) {
+  .blog-article {
+    padding: 34px 10px 35px;
+  }
+}
+
 .blog-article__header-card {
-  width: 1012px;
-  height: 310px;
+  max-width: 1012px;
+  height: auto;
   margin: 0 auto;
   display: flex;
   align-items: center;
   background: #ffffff;
   box-shadow: 0px 10px 30px rgba(228, 214, 231, 0.5);
   border-radius: 20px;
+}
+
+@media screen and (max-width: 479px) {
+  .blog-article__header-card {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blog-article__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .blog-article__image {
+    border-radius: 22px;
+  }
 }
 
 .blog-article__date {
@@ -1849,6 +1873,12 @@ main.blog-page-main {
   padding: 58px;
 }
 
+@media screen and (max-width: 1049px) {
+  .blog-article__text-wraper {
+    padding: 38px;
+  }
+}
+
 .blog-article__caption {
   font-family: "Montserrat";
   font-style: normal;
@@ -1858,6 +1888,13 @@ main.blog-page-main {
   text-transform: uppercase;
   color: #1F1F1F;
   margin: 0;
+}
+
+@media screen and (max-width: 1049px) {
+  .blog-article__caption {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 .blog-article__content {
@@ -2284,11 +2321,27 @@ main.blog-page-main {
   display: flex;
   justify-content: flex-start;
   text-align: left;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .affiliates-header__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
 }
 
 .affiliates-header__btn-block {
   max-width: 544px;
   padding-top: 105px;
+}
+
+@media screen and (max-width: 767px) {
+  .affiliates-header__btn-block {
+    text-align: center;
+    padding-top: 40px;
+  }
 }
 
 .affiliates-header__title {
@@ -2335,12 +2388,25 @@ main.blog-page-main {
   transition: 0.3s;
 }
 
+@media screen and (max-width: 767px) {
+  .affiliates-header__start-btn {
+    margin-bottom: 43px;
+  }
+}
+
 .affiliates-header__card-block {
   display: flex;
   align-items: center;
   padding-bottom: 130px;
   padding-left: 130px;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .affiliates-header__card-block {
+    padding: 0;
+    justify-content: center;
+  }
 }
 
 .affiliates-card {
@@ -2376,6 +2442,15 @@ main.blog-page-main {
   background-color: #1F1F1F;
   padding-top: 124px;
   padding-bottom: 148px;
+}
+
+@media screen and (max-width: 479px) {
+  .affiliates-dating-vertical {
+    background: none;
+    background-color: #fff;
+    padding-top: 24px;
+    padding-bottom: 48px;
+  }
 }
 
 .affiliates-dating-vertical__wrapper {
@@ -2414,6 +2489,7 @@ main.blog-page-main {
   max-width: 702px;
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .pic-block__img {
@@ -2432,25 +2508,45 @@ main.blog-page-main {
   color: #ffffff;
 }
 
+@media screen and (max-width: 479px) {
+  .pic-block__img {
+    font-size: 22px;
+    line-height: 17px;
+  }
+}
+
 .affiliates-why-section {
   background-color: #1F1F1F;
 }
 
 .affiliates-why__wrapper {
-  max-width: 1109px;
+  max-width: 1110px;
   margin: 0 auto;
-  padding: 104px 0 135px;
+  padding: 104px 10px 135px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .affiliates-why__wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+.affiliates-why__advantages {
+  padding-left: 40px;
+  max-width: 610px;
 }
 
 .affiliates-why__payment-method {
   max-width: 412px;
 }
 
-.affiliates__advantages {
-  padding-left: 25px;
-  max-width: 610px;
+@media screen and (max-width: 767px) {
+  .business-models {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .business-models__subtitle {
@@ -2469,6 +2565,14 @@ main.blog-page-main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .business-models__card-wrapper {
+    max-width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
 }
 
 .business-models__card-header {
@@ -2498,6 +2602,12 @@ main.blog-page-main {
   line-height: 25px;
   text-transform: uppercase;
   color: #773288;
+}
+
+@media screen and (max-width: 767px) {
+  .business-models__card-conteiner {
+    min-width: 49%;
+  }
 }
 
 .affiliate-signup {
@@ -2645,16 +2755,24 @@ main.blog-page-main {
 }
 
 .referral-wrapper {
-  max-width: 1109px;
+  max-width: 1110px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 10px;
 }
 
 .referral__text-block {
   width: 49%;
   padding: 105px 0 95px;
+}
+
+@media screen and (max-width: 479px) {
+  .referral__text-block {
+    width: 100%;
+    padding: 20px 0 20px;
+  }
 }
 
 .referral__text-title {
@@ -2686,6 +2804,12 @@ main.blog-page-main {
   align-items: center;
 }
 
+@media screen and (max-width: 479px) {
+  .referral__picture-block {
+    width: 100%;
+  }
+}
+
 .referral__picture-wrapper {
   width: 447px;
   height: 336px;
@@ -2697,25 +2821,33 @@ main.blog-page-main {
 
 .referral-card-block {
   background: #1F1F1F url(/image/svg/background14.svg) no-repeat;
+  background-size: cover;
 }
 
 .referral-card-block__wrapper {
-  max-width: 1109px;
+  max-width: 1110px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   justify-content: space-between;
-  padding: 140px 0 109px;
+  padding: 140px 10px 109px;
 }
 
 .referral-card__wrapper {
-  max-width: 328px;
+  width: 32%;
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 31px 36px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .referral-card__wrapper {
+    width: 100%;
+  }
 }
 
 .referral-card__title {
@@ -2748,7 +2880,7 @@ main.blog-page-main {
 .policy,
 .terms,
 .tracking {
-  padding: 67px 0 151px;
+  padding: 67px 10px 151px;
 }
 
 .policy-page,

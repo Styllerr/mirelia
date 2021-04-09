@@ -4,22 +4,29 @@
             background-color: $mine-shaft;
         }
         &__wrapper {
-            max-width: 1109px;
+            @media screen and (max-width: $screen-md) {
+                flex-wrap: wrap;
+            }
+            max-width: 1110px;
             margin: 0 auto;
-            padding: 104px 0 135px;
+            padding: 104px 10px 135px;
             display: flex;
             justify-content: space-between;
+        }
+        &__advantages {
+            padding-left: 40px;
+            max-width: 610px;
         }
         &__payment-method {
             max-width: 412px;
         }
     }
-    &__advantages {
-        padding-left: 25px;
-        max-width: 610px;
-    }
 }
 .business-models {
+    @media screen and (max-width: $screen-md) {
+        width: 100%;
+        text-align: center;
+    }
     &__subtitle {
         font-family: "Montserrat";
         font-style: normal;
@@ -31,6 +38,11 @@
         margin: 0;
     }
     &__card-wrapper {
+        @media screen and (max-width: $screen-md) {
+            max-width: 100%;
+            justify-content: center;
+            gap: 10px;
+        }
         max-width: 394px;
         display: flex;
         flex-wrap: wrap;
@@ -47,6 +59,9 @@
         margin: 70px 0 27px;
     }
     &__card-conteiner {
+        @media screen and (max-width: $screen-md) {
+            min-width: 49%;
+        }
         display: flex;
         justify-content: center;
         align-items: center;

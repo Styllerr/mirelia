@@ -1,4 +1,10 @@
 .affiliates-dating-vertical {
+    @media screen and (max-width: $screen-sd) {
+        background: none;
+        background-color: #fff;
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
     background: url(/image/svg/background13.svg) no-repeat;
     background-color: $mine-shaft;
     padding-top: 124px;
@@ -36,9 +42,15 @@
         max-width: 702px;
         display: flex;
         justify-content: space-between;
+        gap: 10px;
     }
 }
 .pic-block__img {
+    @media screen and (max-width: $screen-sd) {
+        font-size: 22px;
+        line-height: 17px;
+
+    }
     display: flex;
     justify-content: center;
     align-items: center;

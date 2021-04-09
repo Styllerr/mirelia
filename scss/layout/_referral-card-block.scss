@@ -1,17 +1,22 @@
 .referral-card-block {
     background: $mine-shaft url(/image/svg/background14.svg) no-repeat;
+    background-size: cover;
     &__wrapper {
-        max-width: 1109px;
+        max-width: 1110px;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
         justify-content: space-between;
-        padding: 140px 0 109px;
+        padding: 140px 10px 109px;
     }
 }
 .referral-card {
     &__wrapper {
-        max-width: 328px;
+        @media screen and (max-width: $screen-md) {
+            width: 100%;
+        }
+        width: 32%;
         background-color: $white;
         display: flex;
         flex-wrap: wrap;

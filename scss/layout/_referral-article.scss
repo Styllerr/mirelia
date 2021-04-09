@@ -3,13 +3,19 @@
         background-color: $mine-shaft;
     }
     &-wrapper {
-        max-width: 1109px;
+        max-width: 1110px;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding: 0 10px;
+
     }
     &__text-block {
+        @media screen and (max-width: $screen-sd) {
+            width: 100%;
+            padding: 20px 0 20px;
+        }
         width: 49%;
         padding: 105px 0 95px;
     }
@@ -35,6 +41,9 @@
         
     }
     &__picture-block {
+        @media screen and (max-width: $screen-sd) {
+            width: 100%;
+        }
         width: 49%;
         display: flex;
         justify-content: center;
